@@ -44,7 +44,8 @@
     font-weight: 500;
 }
 .stock{
-   width: 75%
+   width: 75%;
+   
 }
 @media only screen and (max-width:500px) {
     .mini-hero{
@@ -94,6 +95,23 @@
         justify-content: center;
         align-items: center;
     }
+
+
+    .main{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .list-divs{
+        display: flex;
+        flex-direction: column;
+        gap: 0rem;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+    
 }
 
 .sec1{
@@ -149,11 +167,64 @@
 
 }
 .sec4{
+    background-color: var(--secondary);
     color: var(--dark);
+    
+.secc4{
+    background-color: var(--secondary);
+    
+}
+
 }
 .sec4 p{
     font-size: .6rem;
 }
 .sec4 input{
     border: 0;
+}
+.hear{
+    background-color: var(--secondary);
+    color: #505977;
+}
+.Love{
+    background-image: url("/SaCure-Project/Images/Rectangle\ 5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.secc5{
+    height: 130%;
+}
+.sec5 h1{
+        font-size: 1.5rem;
+        
+        font-weight: 500;
+        color: var(--dark);
+}
+.foot{
+    background-color: #008080;
+}
+.foot a{
+    color: #fff;
+}
+.foot ul{
+    word-spacing: 7px;
+    font-weight: 400;
+}
+input{
+    width: 100%;
+    padding: 9px 20px;
+    margin: 8px 0;
+    background-color:;
+    color: #fff;
+    border: 0;
+    
+}
+.sign{
+    padding: 9px 20px;
+    margin: 8px 0;
+}
+.list-divs{
+    gap: 9rem;
 }
