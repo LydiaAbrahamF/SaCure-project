@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    margin-top: 2rem;
+}
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    background-image: url(./images/git.jpg);
+    /* background: linear-gradient(rgba(0, 128, 128, 0.26)); */
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+nav{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2rem;   
+
+}
+.fa-solid a{
+    color: #008080;
+    width: 1440px;
+    height: 1024px;
+    
+}
+.fa-solid:hover{
+    opacity: 2rem;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+}
+/* SECTION 1 */
+#sec1-text{
+    font-weight: 600;
+    /* margin-inline: auto;
+    width: 90%; */
+    text-align: center;
+    padding-top: 3rem;
+}
+
+
+.sec1-details{
+    margin-inline: auto;
+    width: 70%;
+   
+}
+
+ hr{
+    margin-top: 3rem;
+    margin-inline: auto;
+    width: 90%;
+}
+h2{
+    margin-inline: auto;
+    width: 85%;
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+.sec1{
+    width: 65%;
+    /* margin-inline: auto; */
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-right: 10%;
+    margin-left: 17%;
+    
+}
+.sec1-details li{
+    margin-left: 2rem;
+    list-style-type: disc;
+    font-weight: 600;
+    font-size: 1rem;
+    
+}
+
+.sec1-details summary{
+    color: #008080;
+    font-weight: 600;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    /* margin-inline: auto; */
+    
+}
+.sec1-details p{
+    color: #008080;
+    font-size:1.1rem;
+    font-weight: 500;
+    margin-top: 1rem;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    /* margin-inline: auto; */
+    /* margin-left: 20%; */
+   
+}
+.sec1-details{
+    display: flex;
+    justify-content: space-evenly;
+    /* border-width: 10%; */
+}
+.sec1-details .Shelter{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+
+}
+.content{
+    margin-inline: auto;
+    width: 90%;
+}
+div{
+    /* margin: 2rem; */
+    background-color: #fff;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.contact div{
+    border: 1px solid #d0d4d4;
+    background-color: #d0d4d4;
+    width: 50%;
+    padding: 1rem; 
+    margin-inline: auto;
+    justify-items: auto;
+    border-radius: 3rem;
+    padding-left: 0;
+    padding-right: 0;
+    /* justify-content: space-evenly; */
+}
+.contact h2{
+    font-family: 'Kumbh Sans';
+    /* font-weight: 500; */
+    font-size: 1rem;
+    color: #2A254B; 
+    
+}
+.contact span{
+   float: right;
+   color: #2A254B;
+   font-family: 'Kumbh Sans';
+
+  
+}
+.contact a:hover span{
+    opacity: 1;
+    color: gray;
+    border: none;
+    background-color: transparent;
+}
+.contact a:hover h2{
+    opacity: 1;
+    color: gray;
+    border: none;
+    background-color: transparent;
+}
+.contact a{
+    cursor: pointer;
+}
+.content .contact{
+    padding-bottom: 1rem;
+    padding-top: 0;
+    justify-content: space-between;
+}
+.fa-brands:hover{
+    opacity: 1;
+    color: gray;
+    border: none;
+    background-color: transparent;
+}
+.fa-solid:hover{
+    opacity: 1;
+    color: gray;
+    border: none;
+    background-color: transparent;
+}
+.fa-regular:hover{
+    opacity: 1;
+    color: gray;
+    border: none;
+    background-color: transparent;
+}
+.fa-solid{
+    margin-right: 1rem;
+    color: #008080;
+}
+
+.fa-brands{
+    margin-right: 1rem;
+    color: #008080;
+    
+}
+.fa-regular{
+    margin-right: 1rem;
+    color: #008080;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    
+}

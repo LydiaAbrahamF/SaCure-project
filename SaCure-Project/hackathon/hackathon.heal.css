@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@600;700&display=swap');
+*{
+    font-family:Kumbh Sans ;
+}
+button{
+    background-color:rgba(0, 128, 128, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: Kumbh Sans;
+font-size: 14px;
+font-weight: 200;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+}
+h3{
+    font-family: Kumbh Sans;
+font-size: 38px;
+font-weight: 700;
+line-height: 59px;
+letter-spacing: 0.13em;
+text-align: left;
+}h5{
+    font-family: Kumbh Sans;
+font-size: 30px;
+font-weight: 600;
+line-height: 37px;
+letter-spacing: 0em;
+text-align: left;
+}
+.img{
+    width: 1rem;;
+}
+div{
+    align-content: flex-start;
+}
+.card{
+    border-bottom: 0;
+    border-top: 1px solid black;
+}
+.navbar{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.foot{
+    background-color: #008080;
+}
+.foot a{
+    color: #fff;
+    text-decoration: none;
+}
+.foot ul{
+    word-spacing: 7px;
+    font-weight: 400;
+    list-style: none;
+}
+input{
+    width: 100%;
+    padding: 9px 20px;
+    margin: 8px 0;
+    color: #fff;
+    border: 0;
+    
+}
+.sign{
+    padding: 9px 20px;
+    margin: 8px 0;
+}
+.list-divs{
+    gap: 9rem;
+}
+@media only screen and (max-width:500px) {
+    .list-divs{
+        display: flex;
+        flex-direction: column;
+        gap: 0rem;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+}
