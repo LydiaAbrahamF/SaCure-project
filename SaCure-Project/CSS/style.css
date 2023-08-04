@@ -150,6 +150,9 @@
 .sec2 .card{
     border: none;
 }
+.sec2 .card-title{
+    margin-block: 2rem;
+}
 .sec2 h1{
     font-size: 1.5rem;
     margin-top: 4rem;
